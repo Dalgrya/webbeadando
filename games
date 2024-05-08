@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(15,15,15);
+        }
+        h2{
+            color: white;
+            text-align: center;
+        }
+        h3{
+            color: white;
+            text-align: center;
+        }
+        .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 124px;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+p{
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  .topnav a.active {
+  
+    background-color: rgb (30,125,125);
+  }
+
+  a {
+    color: red; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+a:hover {
+    color: violet; 
+}
+
+  
+    </style>
+   
+    <title>Games</title>
+</head>
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="./Dalgrya.html">Dalgrya</a>
+        <a href="EnterGhost.html">EnterGhost</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <h2>Neora_Demo</h2>
+    <h3>Letöltés:</h3>
+    <a href="https://drive.google.com/drive/folders/1oQOHh_yprF15MpZ2W7yOA--hqAiMvPhr?usp=drive_link" target="_blank">Download Neora Demo</a>
+
+</body>
+</html>
