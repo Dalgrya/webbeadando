@@ -1,5 +1,5 @@
 <?php
-
+ 
 ?>
 
 <!DOCTYPE html>
@@ -14,14 +14,16 @@
 <body>
     <div class="container">
         <div class="log">
-        <form action="" method="post">
-            <label>Felhasználónév:</label>
-            <input type="username" class="form-control" placeholder="dickmaster" aria-label="Username" aria-describedby="basic-addon1">
-            <label> Jelszó:</label>
-            <input type="password" class="form-control" placeholder="123456" aria-label="Username" aria-describedby="basic-addon1">
-        <button class="btn btn-primary me-md-2" type="button">LogIn</button>
-        <a href="./php/reg.php" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">Regisztráció</a>
-        </form>
+        <form action="./php/login.php" method="post">
+    <label for="username">Felhasználónév:</label>
+    <input type="text" name="username" id="username" class="form-control" placeholder="username" aria-label="Username" aria-describedby="basic-addon1">
+    <label for="password">Jelszó:</label>
+    <input type="password" name="password" id="password" class="form-control" placeholder="123456" aria-label="Password" aria-describedby="basic-addon1">
+    <button class="btn btn-primary me-md-2" type="submit">Login</button>
+    <a href="./php/reg.php" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">Regisztráció</a>
+
+    
+</form>
        
         </div>
 </div>
