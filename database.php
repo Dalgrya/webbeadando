@@ -8,5 +8,5 @@ try {
 echo"Hiba a szerverhez"
     }
 } catch (\Throwable $th) {
-    //throw $th;
+   
 }
