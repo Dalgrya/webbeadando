@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../php/main.css">
+    <title>Home</title>
+</head>
+<body>
+
+
+
+
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="./Dalgrya.html">Dalgrya</a>
+  <a href="EnterGhost.html">EnterGhost</a>
+  <a href="Contact.html">Contact</a>
+  <button onclick="logout()">Log out</button>
+    <script src="logout.js"></script>
+</div>
+
+<h2>Érdekes és hasznos youtube videó:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H2QhUGuft7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
