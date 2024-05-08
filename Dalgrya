@@ -45,7 +45,7 @@
 
 <div id="Games" class="tabcontent">
   <h3>Games</h3>
-  <p>This is the games tab content.</p>
+ <a href="./games.html"class="button">Games</a> 
 </div>
 
 
