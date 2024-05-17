@@ -1,0 +1,43 @@
+
+  body{
+    background-color: rgb(15,15,15);
+}
+h1{
+    color: rgb(118,40,40);
+    text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+h3{color: rgb(118,40,40);
+text-align: center;
+}
+h4{
+   color: rgb(200, 200, 200);
+}
+
+
+
+p{
+    color: white;
+}
+
+
+  .tabcontent
+  {
+    text-align: center;
+    background-image: "bg20.png";
+    padding: 20px 124px;
+  }
+
+  .tab{
+    
+    text-align: center;
+    
+  }
+
+  
+
